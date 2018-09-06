@@ -3,7 +3,7 @@ $(document).ready(function() {
       let city = $('#location').val();
       $('#location').val("");
       $.ajax({
-        url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=API-KEY-GOES-HERE`,
+        url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a106239c326e4b268a05bd6c1d2f755d`,
         type: 'GET',
         data: {
           format: 'json'
